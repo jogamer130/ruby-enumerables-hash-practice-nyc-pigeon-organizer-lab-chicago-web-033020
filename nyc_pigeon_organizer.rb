@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  # Populate the applicable locations by visiting each pigeon key-value pair in the pigeon list. Find out if the pigeon name key is held as one of the values within any of the location key-value pairs. If so, add it to pigeon list
+  
   residence_of_pigeon = data[:lives]
 
   pigeon_list.each do |name, attribute_hash|
